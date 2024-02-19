@@ -1,0 +1,27 @@
+.header-buttons {
+  width: 100%;
+  display: flex;
+
+  background-color: #394264;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.header-button {
+  padding: 25px 50px 20px 50px;
+
+  color: white;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 5px solid transparent;
+  cursor: pointer;
+
+  transition: background-color 0.3s;
+}
+
+.header-button-active,
+.header-button:hover {
+  color: white;
+  background-color: #50597b;
+  border-bottom-color: #11a8ab;
+}
