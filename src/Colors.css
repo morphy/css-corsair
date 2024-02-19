@@ -1,5 +1,57 @@
 .colors-wrapper > textarea {
   width: 100%;
   background-color: #50597b;
-  padding: 10px 20px;
+
+  color: white;
+  font-family: monospace;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.colors-wrapper button {
+  margin-top: 32px;
+  padding: 15px 40px;
+  background-color: #11a8ab;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+
+  transition: background-color 0.3s;
+}
+
+.colors-wrapper button:hover {
+  background-color: #0d9092;
+}
+
+.square-container {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(
+    180deg,
+    red 16%,
+    orange 32%,
+    yellow 48%,
+    green 64%,
+    blue 80%,
+    darkmagenta 96%
+  );
+}
+
+.all-buttons {
+  width: 100%;
+  display: flex;
+}
+
+.other-buttons {
+  margin-left: auto;
+
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
 }
