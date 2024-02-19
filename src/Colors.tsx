@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useRef, useState } from "react";
+
+import Tab from "./Tab";
 
 import "./Colors.css";
 

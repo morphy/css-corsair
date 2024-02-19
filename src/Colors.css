@@ -1,5 +1,9 @@
 .colors-wrapper > textarea {
   width: 100%;
+  min-height: 200px;
+  padding: 20px;
+
+  outline: 0;
   background-color: #50597b;
 
   color: white;

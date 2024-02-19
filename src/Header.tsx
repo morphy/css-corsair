@@ -10,19 +10,18 @@ const Header = () => {
 
   return (
     <div className="header-buttons">
-      {menuItems.map((menuItem) => {
-        return (
-          <button
-            className={clsx({
-              "header-button": true,
-              "header-button-active": tab === menuItem
-            })}
-            onClick={() => setTab(menuItem)}
-          >
-            {menuItem}
-          </button>
-        );
-      })}
+      {menuItems.map((menuItem) => (
+        <button
+          className={clsx({
+            "header-button": true,
+            "header-button-active": tab === menuItem
+          })}
+          onClick={() => setTab(menuItem)}
+          key={menuItem}
+        >
+          {menuItem}
+        </button>
+      ))}
     </div>
   );
 };
